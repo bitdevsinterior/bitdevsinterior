@@ -36,7 +36,7 @@ Isso significa que todos os participantes são encorajados a compartilhar as inf
 - [Disclosure of CVE-2024-35202](https://bitcoincore.org/en/2024/10/08/disclose-blocktxn-crash/)
 - [Bloating of Testnet 4 UTXO set](https://x.com/murchandamus/status/1848408001373180193)
 
-### Cryptography & Post-Quantum Topics
+### Cryptography & Post-Quantum 
 - [Post-quantum Bitcoin Script and signatures](https://x.com/n1ckler/status/1854552545084977320)
 - [ColliderScript: Covenants in Bitcoin via 160-bit hash collisions](https://eprint.iacr.org/2024/1802.pdf)
 - [Adaptors generalized](https://reyify.com/blog/adaptors-generalised/)
@@ -47,7 +47,7 @@ Isso significa que todos os participantes são encorajados a compartilhar as inf
 - [A fast, scalable protocol for resolving lightning payments](https://delvingbitcoin.org/t/a-fast-scalable-protocol-for-resolving-lightning-payments/1233)
 - [BIP327: update status from Draft to Active](https://github.com/bitcoin/bips/pull/1679)
 
-### Lightning Protocol & Layer-2 Improvements
+### Lightning Protocol & Layer-2
 - [Re-broadcast channel_announcements every six blocks for a week](https://github.com/lightningdevkit/rust-lightning/pull/3360)
 - [Add support for RBF-ing splice transactions](https://github.com/ACINQ/eclair/pull/2925)
 - [Include invoice requests in async payment onions](https://github.com/lightningdevkit/rust-lightning/pull/3207)
