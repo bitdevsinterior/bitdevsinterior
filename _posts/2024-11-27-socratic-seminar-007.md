@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Socratic Seminar - Interior de São Paulo"
-meetup: "https://lu.ma/5i2q0di6"
+type: socratic
+title: "Seminário Socrático 007"
+meetup: https://lu.ma/5i2q0di6
 ---
 
 ## Anúncios
@@ -16,57 +17,54 @@ Siga-nos no X: [Bitdevs Interior](https://x.com/bitdevsinterior)
 Este evento será realizado sob a [Chatham House Rule](https://www.chathamhouse.org/about-us/chatham-house-rule). 
 Isso significa que todos os participantes são encorajados a compartilhar as informações discutidas, mas sem revelar a identidade de quem disse o quê. Respeite a privacidade dos participantes. Por favor, não tire fotos sem a permissão.
 
-## Tópicos
+## Bitcoin Core & Development
+- [Bitcoin Core 28.0 Released](https://bitcoincore.org/en/releases/28.0/)
+- [Bitcoin Core 28 wallet integration guide](https://bitcoinops.org/en/bitcoin-core-28-wallet-integration-guide/)
+- [Bitcoin consensus analysis project (BCAP)](https://github.com/bitcoin-cap/bcap)
+- [Disclosure of hindered block propagation due to stalling peers](https://bitcoincore.org/en/2024/11/05/cb-stall-hindering-propagation/)
+- [Public disclosure of three vulnerabilities affecting Bitcoin Core <v25.0](https://groups.google.com/g/bitcoindev/c/WeSDeV8YOSA)
+- [Bitcoin Core's loss of focus](https://github.com/bitcoin/bitcoin/issues/30592)
 
-### Segurança & Vulnerabilidades
-- [Censura de pagamentos na Lightning Network apesar da comunicação criptografada](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.12)
-- [CVE-2024-38365 divulgação pública (bug FindAndDelete no btcd)](https://delvingbitcoin.org/t/cve-2024-38365-public-disclosure-btcd-findanddelete-bug/1184)
-- [Ataque à rede Tor](https://x.com/Andrew___Morris/status/1854289771197329517)
+## Mining
+- [Stratum v2 Project Roadmap](https://stratumprotocol.org/blog/sri-roadmap-2025/)
+- [DATUM protocol announced](https://ocean.xyz/docs/datum)
+
+### Security, Vulnerabilities & Risk Management
+- [Payment Censorship in the Lightning Network Despite Encrypted Communication](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.12)
+- [CVE-2024-38365 public disclosure (btcd FindAndDelete bug)](https://delvingbitcoin.org/t/cve-2024-38365-public-disclosure-btcd-findanddelete-bug/1184)
+- [Is Tor still safe to use?](https://x.com/Andrew___Morris/status/1854289771197329517)
+- [Attack on Tor Network](https://x.com/Andrew___Morris/status/1854289771197329517)
 - [Slow Block Validation Attacks](https://blog.lopp.net/slow-block-validation-attacks/)
-- [CVE-2024-35202 - Divulgação sobre falha de crash do bloco](https://bitcoincore.org/en/2024/10/08/disclose-blocktxn-crash/)
-- [Divulgação sobre DoS devido ao crescimento de inv-to-send](https://bitcoincore.org/en/2024/10/08/disclose-large-inv-to-send/)
+- [Disclosure of CVE-2024-35202](https://bitcoincore.org/en/2024/10/08/disclose-blocktxn-crash/)
+- [Bloating of Testnet 4 UTXO set](https://x.com/murchandamus/status/1848408001373180193)
 
-### Criptografia & Pós-quantum
-- [Post-quantum Bitcoin Script e assinaturas](https://x.com/n1ckler/status/1854552545084977320)
-- [ColliderScript: Covenants no Bitcoin via colisões de hash de 160 bits](https://eprint.iacr.org/2024/1802.pdf)
-- [Adaptors generalizados](https://reyify.com/blog/adaptors-generalised/)
+### Cryptography & Post-Quantum Topics
+- [Post-quantum Bitcoin Script and signatures](https://x.com/n1ckler/status/1854552545084977320)
+- [ColliderScript: Covenants in Bitcoin via 160-bit hash collisions](https://eprint.iacr.org/2024/1802.pdf)
+- [Adaptors generalized](https://reyify.com/blog/adaptors-generalised/)
 - [BIP: DLEQ](https://groups.google.com/g/bitcoindev/c/MezoKV5md7s)
 
-### Core e Desenvolvimento
-- [Bitcoin Core 28.0 Lançado](https://bitcoincore.org/en/releases/28.0/)
-- [Guia de Integração da Carteira do Bitcoin Core 28](https://bitcoinops.org/en/bitcoin-core-28-wallet-integration-guide/)
-- [Projeto de Análise de Consenso do Bitcoin (BCAP)](https://github.com/bitcoin-cap/bcap)
-- [Como o Desenvolvimento do Bitcoin Core é Financiado](https://xcancel.com)
-- [Divulgação sobre a propagação bloqueada devido a pares que travam](https://bitcoincore.org/en/2024/11/05/cb-stall-hindering-propagation/)
-- [Remoção da dependência miniupnp no Bitcoin Core](https://github.com/bitcoin/bitcoin/pull/31130)
-- [Ephemeral Dust (#30239)](https://github.com/bitcoin/bitcoin/pull/30239)
-- [Publicação de falhas de segurança no Bitcoin Core <v25.0](https://groups.google.com/g/bitcoindev/c/WeSDeV8YOSA)
+### New Proposals & Improvements
+- [SuperScalar: Laddered Timeout-Tree-Structured Decker-Wattenhofer Factories](https://delvingbitcoin.org/t/superscalar-laddered-timeout-tree-structured-decker-wattenhofer-factories/1143)
+- [A fast, scalable protocol for resolving lightning payments](https://delvingbitcoin.org/t/a-fast-scalable-protocol-for-resolving-lightning-payments/1233)
+- [BIP327: update status from Draft to Active](https://github.com/bitcoin/bips/pull/1679)
 
-### Pesquisa & Desenvolvimento
-- [The distributional consequences of Bitcoin](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985877)
+### Lightning Protocol & Layer-2 Improvements
+- [Re-broadcast channel_announcements every six blocks for a week](https://github.com/lightningdevkit/rust-lightning/pull/3360)
+- [Add support for RBF-ing splice transactions](https://github.com/ACINQ/eclair/pull/2925)
+- [Include invoice requests in async payment onions](https://github.com/lightningdevkit/rust-lightning/pull/3207)
+- [Serialize blinded Trampoline hops](https://github.com/lightningdevkit/rust-lightning/pull/3007)
+
+### Wallets, User Experience & New Proposals
 - [Bitcoin PIPEs: Covenants on Bitcoin Without Soft Fork](https://delvingbitcoin.org/t/bitcoin-pipes-covenants-on-bitcoin-without-soft-fork/1195)
-- [CAT Protocol](https://catprotocol.org/)
-- [Pesquisa sobre censura de pagamentos na Lightning Network](https://delvingbitcoin.org/t/research-paper-on-ln-payment-censorship/1248)
-- [SuperScalar: Fábricas Decker-Wattenhofer com Estruturas de Timeout em Árvore Laddered](https://delvingbitcoin.org/t/superscalar-laddered-timeout-tree-structured-decker-wattenhofer-factories/1143)
-- [Acelerando um protocolo escalável para pagamentos na Lightning Network](https://delvingbitcoin.org/t/a-fast-scalable-protocol-for-resolving-lightning-payments/1233)
-
-### Mining
-- [Stratum v2 Project Roadmap](https://stratumprotocol.org/blog/sri-roadmap-2025/)
-- [Protocolo DATUM anunciado](https://ocean.xyz/docs/datum)
-
-### Lightning Network & Layer-2
-#### Propostas & Novos Protocolos
-- [BIP327: atualização do status de rascunho para ativo](https://github.com/bitcoin/bips/pull/1679)
-
-#### Melhorias na Lightning
-- [Re-broadcast de anúncios de canal a cada seis blocos por uma semana](https://github.com/lightningdevkit/rust-lightning/pull/3360)
-- [Adicionar suporte para RBF (Replace-By-Fee) em transações de splice](https://github.com/ACINQ/eclair/pull/2925)
-- [Incluir solicitações de fatura nas cebolas de pagamento assíncronas](https://github.com/lightningdevkit/rust-lightning/pull/3207)
-- [Serializar os saltos cegos Trampoline](https://github.com/lightningdevkit/rust-lightning/pull/3007)
-- [Adição de suporte para pagar diretamente para Nomes Legíveis de Humano usando bLIP 32](https://github.com/lightningdevkit/rust-lightning/pull/3283)
-
-### Outros Tópicos de Interesse
-- [Pinning Attack no BRC20](https://arxiv.org/abs/2410.11295)
-- [BTCPay Server 2.0: nossa maior atualização até agora!](https://blog.btcpayserver.org/btcpay-server-2-0/)
-- [Libbitcoin sincroniza toda a blockchain em 1 hora](https://x.com/evoskuil/status/1847673128073187536)
+- [A novel design for smartphone-based bitcoin wallets](https://bitkey.build/building-in-the-open/)
 - [Cashu: Tap to pay with bearer tokens - absolute wild!](https://x.com)
+- [Blue Wallet enables multi-recipient transactions](https://twitter.com)
+- [BTCPay Server 2.0: our biggest update yet!](https://blog.btcpayserver.org/btcpay-server-2-0/)
+- [Libbitcoin for Core people](https://delvingbitcoin.org/t/libbitcoin-for-core-people/1222)
+
+### Other Topics of Interest
+- [BRC20 Pinning Attack](https://arxiv.org/abs/2410.11295)
+- [CAT Protocol](https://catprotocol.org/)
+- [Blockstream Secures $210M Led by Fulgur Ventures to Drive Layer-2 Growth](https://blockstream.com/press-releases/2024-10-15-blockstream-secures-210m-dollars-led-fulgur-ventures-drive-layer-2-growth-expand-bitcoin-treasury/)
+- [Libbitcoin syncs full blockchain in 1 hour](https://x.com/evoskuil/status/1847673128073187536)
