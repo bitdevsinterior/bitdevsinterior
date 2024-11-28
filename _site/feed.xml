@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-28T02:36:28-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bitdevs em Português</title><subtitle>Bitdevs é uma comunidade para aqueles interessados em discutir e participar na pesquisa e desenvolvimento do Bitcoin e protocolos relacionados.</subtitle><entry><title type="html">Seminário Socrático 007</title><link href="http://localhost:4000/2024-11-28-socratic-seminar-007" rel="alternate" type="text/html" title="Seminário Socrático 007" /><published>2024-11-28T00:00:00-03:00</published><updated>2024-11-28T00:00:00-03:00</updated><id>http://localhost:4000/socratic-seminar-007</id><content type="html" xml:base="http://localhost:4000/2024-11-28-socratic-seminar-007"><![CDATA[<h2 id="anúncios">Anúncios</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-28T13:33:02-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bitdevs em Português</title><subtitle>Bitdevs é uma comunidade para aqueles interessados em discutir e participar na pesquisa e desenvolvimento do Bitcoin e protocolos relacionados.</subtitle><entry><title type="html">Seminário Socrático 007</title><link href="http://localhost:4000/2024-11-28-socratic-seminar-007" rel="alternate" type="text/html" title="Seminário Socrático 007" /><published>2024-11-28T00:00:00-03:00</published><updated>2024-11-28T00:00:00-03:00</updated><id>http://localhost:4000/socratic-seminar-007</id><content type="html" xml:base="http://localhost:4000/2024-11-28-socratic-seminar-007"><![CDATA[<h2 id="anúncios">Anúncios</h2>
 <p>Este meetup será focado em discussões técnicas profundas sobre o desenvolvimento do Bitcoin.
 Agradecemos à <a href="https://x.com/scalarschool">Scalar School</a> pelo apoio na organização do evento.</p>
 
@@ -35,7 +35,7 @@ Isso significa que todos os participantes são encorajados a compartilhar as inf
   <li><a href="https://x.com/murchandamus/status/1848408001373180193">Bloating of Testnet 4 UTXO set</a></li>
 </ul>
 
-<h3 id="cryptography--post-quantum-topics">Cryptography &amp; Post-Quantum Topics</h3>
+<h3 id="cryptography--post-quantum">Cryptography &amp; Post-Quantum</h3>
 <ul>
   <li><a href="https://x.com/n1ckler/status/1854552545084977320">Post-quantum Bitcoin Script and signatures</a></li>
   <li><a href="https://eprint.iacr.org/2024/1802.pdf">ColliderScript: Covenants in Bitcoin via 160-bit hash collisions</a></li>
@@ -50,7 +50,7 @@ Isso significa que todos os participantes são encorajados a compartilhar as inf
   <li><a href="https://github.com/bitcoin/bips/pull/1679">BIP327: update status from Draft to Active</a></li>
 </ul>
 
-<h3 id="lightning-protocol--layer-2-improvements">Lightning Protocol &amp; Layer-2 Improvements</h3>
+<h3 id="lightning-protocol--layer-2">Lightning Protocol &amp; Layer-2</h3>
 <ul>
   <li><a href="https://github.com/lightningdevkit/rust-lightning/pull/3360">Re-broadcast channel_announcements every six blocks for a week</a></li>
   <li><a href="https://github.com/ACINQ/eclair/pull/2925">Add support for RBF-ing splice transactions</a></li>
