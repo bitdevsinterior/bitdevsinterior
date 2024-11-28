@@ -31,7 +31,6 @@ Isso significa que todos os participantes são encorajados a compartilhar as inf
 ### Security, Vulnerabilities & Risk Management
 - [Payment Censorship in the Lightning Network Despite Encrypted Communication](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.12)
 - [CVE-2024-38365 public disclosure (btcd FindAndDelete bug)](https://delvingbitcoin.org/t/cve-2024-38365-public-disclosure-btcd-findanddelete-bug/1184)
-- [Is Tor still safe to use?](https://x.com/Andrew___Morris/status/1854289771197329517)
 - [Attack on Tor Network](https://x.com/Andrew___Morris/status/1854289771197329517)
 - [Slow Block Validation Attacks](https://blog.lopp.net/slow-block-validation-attacks/)
 - [Disclosure of CVE-2024-35202](https://bitcoincore.org/en/2024/10/08/disclose-blocktxn-crash/)
