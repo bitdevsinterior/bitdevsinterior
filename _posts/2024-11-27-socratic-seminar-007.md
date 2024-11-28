@@ -56,8 +56,8 @@ Isso significa que todos os participantes são encorajados a compartilhar as inf
 ### Wallets, User Experience & New Proposals
 - [Bitcoin PIPEs: Covenants on Bitcoin Without Soft Fork](https://delvingbitcoin.org/t/bitcoin-pipes-covenants-on-bitcoin-without-soft-fork/1195)
 - [A novel design for smartphone-based bitcoin wallets](https://bitkey.build/building-in-the-open/)
-- [Cashu: Tap to pay with bearer tokens - absolute wild!](https://x.com)
-- [Blue Wallet enables multi-recipient transactions](https://twitter.com)
+- [Cashu: Tap to pay with bearer tokens - absolute wild!](https://x.com/callebtc/status/1848256284727841179)
+- [Blue Wallet enables multi-recipient transactions](https://x.com/bluewalletio/status/1840461693585170859?s=46)
 - [BTCPay Server 2.0: our biggest update yet!](https://blog.btcpayserver.org/btcpay-server-2-0/)
 - [Libbitcoin for Core people](https://delvingbitcoin.org/t/libbitcoin-for-core-people/1222)
 
