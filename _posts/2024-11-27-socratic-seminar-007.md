@@ -23,7 +23,6 @@ Isso significa que todos os participantes são encorajados a compartilhar as inf
 - [Bitcoin consensus analysis project (BCAP)](https://github.com/bitcoin-cap/bcap)
 - [Disclosure of hindered block propagation due to stalling peers](https://bitcoincore.org/en/2024/11/05/cb-stall-hindering-propagation/)
 - [Public disclosure of three vulnerabilities affecting Bitcoin Core <v25.0](https://groups.google.com/g/bitcoindev/c/WeSDeV8YOSA)
-- [Bitcoin Core's loss of focus](https://github.com/bitcoin/bitcoin/issues/30592)
 
 ## Mining
 - [Stratum v2 Project Roadmap](https://stratumprotocol.org/blog/sri-roadmap-2025/)
